@@ -1,10 +1,10 @@
-'use client' // # client component -> now, it is react component -> we can use useState, and many more...
+'use client'
 
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 export default function CreateForm() {
-  const router = useRouter() // # for client component -> useRouter
+  const router = useRouter()
 
   const [title, setTitle] = useState('')
   const [body, setBody] = useState('')
