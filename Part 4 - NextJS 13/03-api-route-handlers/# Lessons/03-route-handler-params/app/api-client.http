@@ -1,0 +1,11 @@
+# GET http://localhost:3000/api/tickets
+
+POST http://localhost:3000/api/tickets
+content-type: application/json
+
+{
+  "title": "testing",
+  "body": "blah blah",
+  "user_email" : "test@mail.com",
+  "priority" : "low"
+}
